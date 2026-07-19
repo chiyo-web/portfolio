@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <h1 class="logo"><a href="#">Portfolio</a></h1>
+            <button class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text container">
+                <span class="sub-title">WEB CODING PORTFOLIO</span>
+                <h2>
+                    想いが伝わる<br>
+                    Webサイトを。
+                </h2>
+                <p>
+                    HTML・CSS・JavaScriptを用いて<br class="sp-br">制作したWebサイトを<br class="pc-br">掲載しています。
+                </p>
+                <a href="#works" class="btn btn-primary">制作実績はこちら</a>
+            </div>
+
+            <div class="hero-bg">
+                <div class="bg-primary"></div>
+                <div class="bg-image">
+                    <img src="hero-image.jpg" alt="花の写真">
+                </div>
+                <div class="bg-secondary"></div>
+            </div>
+        </section>
+
+
+        <section id="about" class="section about">
+            <div class="container about-content">
+                <div class="about-text">
+                    <span class="sub-title">ABOUT</span>
+                    <h2 class="section-title">プロフィール</h2>
+                    <p>
+                        HTML・CSS・JavaScriptを用いたWebサイト制作を学習しています。<br>
+                        デザインの意図を正確に再現し、保守性・可読性を意識したコーディングを心掛けています。<br>
+                        レスポンシブ対応やJavaScriptによるインタラクションの実装にも取り組み、
+                        ユーザーにとって使いやすいWebサイト制作を目指しています。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="section works">
+            <div class="container">
+                <span class="sub-title">WORKS</span>
+                <h2 class="section-title">制作実績</h2>
+
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="LINDEN CAFE.png" alt="LINDEN CAFEサイト">
+                    </div>
+                    <div class="work-text">
+                        <span>HTML / CSS / JavaScript</span>
+                        <h3>LINDEN CAFE</h3>
+                        <p>
+                            海外のカフェをイメージして制作した架空のカフェサイトです。<br>
+                            緑と黄色を基調とした配色にアクセントとして赤を取り入れ、
+                            かわいらしさと上品さを感じられるデザインに仕上げました。
+                        </p>
+                        <ul>
+                            <li>製作期間：約2週間</li>
+                            <li>担当：デザイン・コーディング</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Site →</a>
+                    </div>
+                </article>
+
+                <article class="work-card reverse">
+                    <div class="work-text">
+                        <span>HTML / CSS / JavaScript</span>
+                        <h3>NextBridge</h3>
+                        <p>
+                            DX支援企業をイメージして制作した架空のコーポレートサイトです。<br>
+                            モダンな印象を意識した配色を取り入れ、
+                            ハンバーガーメニューの実装やモックアップ画像を活用して、
+                            企業サイトらしいデザインに仕上げました。
+                        </p>
+                        <ul>
+                            <li>製作期間：約2週間</li>
+                            <li>担当：デザイン・コーディング</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Site →</a>
+                    </div>
+                    <div class="work-image">
+                        <img src="NextBridge.png" alt="NextBridgeサイト">
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="LUMÉA.png" alt="LUMÉAサイト">
+                    </div>
+                    <div class="work-text">
+                        <span>HTML / CSS / JavaScript</span>
+                        <h3>LUMÉA</h3>
+                        <p>
+                            ナチュラルな雰囲気をイメージして制作した架空の美容商品LPサイトです。<br>
+                            配色やフォント選びで世界観を統一し、ブランドイメージを表現できるデザインを意識しました。
+                            美容成分や商品情報を見やすく配置し、ランディングページとして情報が伝わりやすい構成に仕上げました。
+                        </p>
+                        <ul>
+                            <li>製作期間：約3週間</li>
+                            <li>担当：デザイン・コーディング</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">View Site →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <span class="sub-title">SKILLS</span>
+                <h2 class="section-title">スキル</h2>
+                <ul class="skills-list">
+                    <li class="skills-card">
+                        <h3>HTML</h3>
+                        <p>セマンティックなマークアップを意識し、読みやすく整理された構造を心掛けています。</p>
+                    </li>
+                    <li class="skills-card">
+                        <h3>CSS</h3>
+                        <p>レイアウトや配色、アニメーションを工夫し、見やすく使いやすいデザインを実装します。</p>
+                    </li>
+                    <li class="skills-card">
+                        <h3>JavaScript</h3>
+                        <p>ユーザーが快適に操作できるよう、基本的な動きや機能を実装します。</p>
+                    </li>
+                    <li class="skills-card">
+                        <h3>Responsive</h3>
+                        <p>さまざまなデバイスで見やすく操作しやすいレイアウトを実装します。</p>
+                    </li>
+                    <li class="skills-card">
+                        <h3>Git / GitHub</h3>
+                        <p>Git・GitHubを利用し、変更履歴を管理しながら効率的に制作を進めます。</p>
+                    </li>
+                    <li class="skills-decoration">
+                        <img src="flower.png" alt="花のイラスト">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container contact-content">
+                <span class="sub-title">CONTACT</span>
+                <h2 class="section-title">お問い合わせ</h2>
+                <p class="contact-text">
+                    コーディング案件やWebサイト制作のご相談など、お気軽にお問い合わせください。<br>
+                    現在、ご依頼・ご相談はクラウドワークス経由で受け付けています。
+                </p>
+                <a href="#" class="btn btn-primary">お問い合わせはこちら</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
