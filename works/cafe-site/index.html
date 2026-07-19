@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linden Cafe</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Zen+Old+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top" class="header">
+        <h1 class="logo">Linden Cafe</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#access">Access</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section">
+            <div class="hero-text">
+                <span class="hero-subtitle">
+                    SPECIALTY COFFEE & HOMEMADE SWEETS
+                </span>
+                <h2>
+                    Good Coffee, <br>
+                    Good Time.
+                </h2>
+                <p>落ち着いた空間で、特別な一杯を。</p>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About</h2>
+                    <p>
+                        丁寧に淹れたコーヒーと季節のケーキ、やわらかな光が差し込む落ち着いた空間。<br>
+                        忙しい日常の中で、少しだけ肩の力を抜けるひとときを届けます。<br>
+                        何気ない毎日が、ほんの少し特別になりますように。
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="about-image.jpg" alt="カフェラテのイラスト">
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section">
+            <div class="container">
+                <h2 class="section-title">Menu</h2>
+                <div class="menu-list">
+                    <div class="menu-image">
+                        <img src="menu-image.jpg" alt="季節のケーキ">
+                    </div>
+                    <div class="menu-text">
+                        <h3>FOOD</h3>
+                        <dl class="menu-food">
+                            <dt>たまごサンド</dt>
+                            <dd>¥580</dd>
+
+                            <dt>ベーコンとほうれん草のパスタ</dt>
+                            <dd>¥980</dd>
+
+                            <dt>季節のケーキ</dt>
+                            <dd>¥650</dd>
+                        </dl>
+                    
+                        <h3>DRINK</h3>
+                        <dl class="menu-drink">
+                            <dt>ブレンドコーヒー</dt>
+                            <dd>¥450</dd>
+
+                            <dt>カフェラテ</dt>
+                            <dd>¥550</dd>
+
+                            <dt>キャラメルラテ</dt>
+                            <dd>¥620</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="section">
+            <div class="container">
+                <h2 class="section-title">Access</h2>
+                <div class="access-list">
+                    <div class="access-card">
+                        <h3>📍 ADDRESS</h3>
+                        <p>〒150-0001</p>
+                        <p>東京都〇〇区〇〇 1-2-3</p>
+                    </div>
+
+                    <div class="access-card">
+                        <h3>☎ TEL</h3>
+                        <p>03-1234-5678</p>
+                    </div>
+                    
+                    <div class="access-card">
+                        <h3>☕ OPEN</h3>
+                        <p>9:00 - 20:00</p>
+                        <p>（定休日：火曜日）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <p class="contact-lead">
+                    ご予約やお問い合わせは、こちらのフォームからお気軽にどうぞ。
+                </p>
+                <form class="contact-form" action="#">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Please enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn">送信</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top">TOP</button>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-logo">Linden Cafe</h2>
+            <ul class="footer-sns">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">X</a></li>
+            </ul>
+        </div>
+        <p> &copy; 2026 Linden Cafe</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
