@@ -217,7 +217,7 @@ img {
 }
 
 /* contact */
-.contact-section {
+.contact {
     background: #faf7f0;
 }
 
@@ -369,16 +369,16 @@ img {
     /* header */
     .header {
         flex-direction: column;
-        gap: 20px;
+        gap: 25px;
         padding: 20px;
     }
 
     .nav ul {
-        gap: 20px;
+        gap: 15px;
     }
 
     .nav a {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     /* hero */

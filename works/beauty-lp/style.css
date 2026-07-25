@@ -313,7 +313,7 @@ img {
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("offer_image.png") 70% 90%/130% no-repeat;
+    url("offer-image.png") 70% 90%/130% no-repeat;
 }
 
 .cta {
@@ -373,6 +373,10 @@ img {
     .concept-content img,
     .product-content img {
         height: 450px;
+    }
+
+    .secondary {
+        font-size: 0.85rem;
     }
  
     .section-title {
