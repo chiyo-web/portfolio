@@ -473,7 +473,7 @@ img {
 
     /* hero */
     .hero {
-        height: 90vh;
+        height: 80vh;
     }
 
     .hero-text h2 {
@@ -498,7 +498,7 @@ img {
 
     /* about */
     .about-text {
-        padding: 50px;
+        padding: 60px 30px;
     }
 
     .about-text p {
@@ -530,6 +530,7 @@ img {
     }
 
     .contact-text {
+        text-align: left;
         font-size: 1rem;
     }
 

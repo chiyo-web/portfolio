@@ -117,6 +117,10 @@ img {
     font-size: 1.5rem;
 }
 
+.sp-br {
+    display: none;
+}
+
 /* about */
 .about {
     background: #faf7f0;
@@ -370,11 +374,11 @@ img {
     .header {
         flex-direction: column;
         gap: 25px;
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .nav ul {
-        gap: 15px;
+        gap: 20px;
     }
 
     .nav a {
@@ -383,7 +387,7 @@ img {
 
     /* hero */
     .hero {
-        height: 70vh;
+        height: 60vh;
     }
 
     .hero-subtitle {
@@ -408,6 +412,10 @@ img {
         font-size: 1rem;
     }
 
+    .sp-br {
+        display: block;
+    }
+
     /* menu */
     .menu-list {
         grid-template-columns: 1fr;
@@ -420,6 +428,11 @@ img {
     /* access */
     .access-list {
         flex-direction: column;
+    }
+
+    /* contact */
+    .contact-lead {
+        text-align: left;
     }
 
     /* footer */

@@ -380,7 +380,7 @@ img {
     }
  
     .section-title {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     /* header */
@@ -476,23 +476,29 @@ img {
 
     /* hero */
     .hero {
-        height: 90vh;
+        height: 80vh;
         background-size: cover;
         background-position: center;
     }
 
     .hero h2 {
-        font-size: 2.7rem;
+        font-size: 2rem;
     }
 
     /* concept */
     .concept-text h3 {
-        font-size: 2.3rem;
+        font-size: 2rem;
+    }
+
+    /* product */
+    .price {
+        font-size: 3rem;
     }
 
     /* offer */
     .offer {
-        height: 70vh;
+        height: 60vh;
+        background-size: cover;
     }
 
     .cta h2 {
